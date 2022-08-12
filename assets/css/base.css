@@ -1,0 +1,42 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #777;
+    
+    --header-height: 43px;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.mt-8 {
+    margin-top: 8px;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.mt-48{
+    margin-top: 48px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.btn {
+    height: 43px;
+    min-width: 128px;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}

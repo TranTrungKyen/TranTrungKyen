@@ -1,0 +1,109 @@
+/* Moblie */
+@media (max-width: 739px) {
+    #header {
+        overflow: hidden;
+    }
+
+    .nav{
+        display: flex!important;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .header__search-btn {
+        display: none;
+    }
+
+    .mobile-header__nav-btn {
+        display: flex;
+    }
+
+    .mobile-header__nav-btn:hover {
+        background-color: var(--black-color);
+    }
+
+    .mobile-header__nav-btn:hover i {
+        color: var(--white-color)!important;
+    }
+
+    #mb-nav:checked ~ #header{
+       overflow: visible;
+    }
+
+    #mb-nav:checked ~ #header .nav{
+        color: var(--black-color);
+        background-color: var(--white-color)!important;   
+        animation: headerTranslateY ease .5s;
+    }
+
+    @keyframes headerTranslateY {
+        from {
+            transform: translateY(-50%);
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    .nav .nav__item .nav__item-link {
+        width: 100%;
+    }
+
+    .slider__name {
+        display: none;
+    }
+
+    .mb__name {
+        display: block;
+    }
+
+    .portfolio__header {
+        height: 408px;
+        padding: 16px 0;
+    }
+
+    .list-experiences {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .experience__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .portfolio__name {
+        display: none;
+    }
+
+    .work-btn {
+        margin-top: 16px;
+        text-align: center;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
+/* >= Tablet */
+@media (min-width: 740px) {
+    
+}
+
+/* PC medium resolution > */
+@media (min-width: 1113px) {
+   
+}
+
+/* Tablet - PC low resolution */
+@media (min-width: 740px) and (max-width: 1023px) {
+    
+}
+
+/* > PC low resolution */
+@media (min-width: 1024px) and (max-width: 1239px) {
+   
+}

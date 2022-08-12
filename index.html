@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/favicon-1.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Open+Sans:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/icons/fontawesome-free-5.15.4-web/css/all.min.css">
+    <title>Parallax</title>
+</head>
+
+<body>
+    <div id="main">
+        <input id="mb-nav" type="checkbox">
+        <header id="header">
+            <ul class="nav">
+                <li class="nav__item">
+                    <i class="nav__item-icon fas fa-home"></i>
+                    <a href="#" class="nav__item-link">Home</a>
+                </li>
+                <li class="nav__item">
+                    <i class="nav__item-icon fas fa-user"></i>
+                    <a href="#about" class="nav__item-link">About</a>
+                </li>
+                <li class="nav__item">
+                    <i class="nav__item-icon fas fa-th"></i>
+                    <a href="#work" class="nav__item-link">Portfolio</a>
+                </li>
+                <li class="nav__item">
+                    <i class="nav__item-icon fas fa-envelope"></i>
+                    <a href="#contact__content" class="nav__item-link">Contact</a>
+                </li>
+            </ul>
+            <div class="header__search-btn">
+                <i class="header__search-btn-icon fas fa-search"></i>
+            </div>
+            <label for="mb-nav" class="mobile-header__nav-btn">
+                <i class="mobile-header__nav-btn-icon fas fa-bars"></i>
+            </label>
+        </header>
+        <div id="slider">
+            <div class="slider-desc">
+                <h1 class="slider__name">Tran Trung Kyen</h1>
+                <h1 class="mb__name">Kyen</h1>
+            </div>
+        </div>
+        <div id="container">
+            <div class="container__item" id="about">
+                <h2 class="container__item-heading">About me</h2>
+                <p class="container__item-desc">I love photography</p>
+                <p class="container__item-desc-sub">We have created a fictional "personal" website/blog, and our
+                    fictional
+                    character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut
+                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.</p>
+                <div class="row">
+                    <div class="col l-6 m-6 c-12">
+                        <div class="about__info">
+                            <div class="about__info-name">
+                                <i class="fas fa-user"></i>
+                                <h3 class="name">Tran Trung Kien</h3>
+                            </div>
+                            <div class="about__info-avt">
+                                <img src="./assets/images/zlatan_ibrahimovic.png" alt="Trần Trung Kiên">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-6 m-6 c-12">
+                        <p class="container__item-desc-sub pt-20">Welcome to my website. I am lorem ipsum
+                            consectetur
+                            adipiscing
+                            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                            qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+                <div class="about__good">
+                    <h3 class="about__good-heading">Im really good at:</h3>
+                    <ul class="list__good">
+                        <li class="list__good-item">
+                            <div class="good-item__content">
+                                <i class="fas fa-camera"></i>
+                                <p>Photography</p>
+                            </div>
+                            <div class="good-item__percent"></div>
+                        </li>
+                        <li class="list__good-item">
+                            <div class="good-item__content">
+                                <i class="fas fa-laptop"></i>
+                                <p>Web Design</p>
+                            </div>
+                            <div class="good-item__percent"></div>
+                        </li>
+                        <li class="list__good-item">
+                            <div class="good-item__content">
+                                <i class="fas fa-image"></i>
+                                <p>Photoshop</p>
+                            </div>
+                            <div class="good-item__percent"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div id="portfolio">
+                <div class="portfolio__header">
+                    <ul class="list-experiences">
+                        <li class="experience__item">
+                            <span class="experience__item-quantity">14+</span>
+                            <p class="experience__item-desc">Partners</p>
+                        </li>
+                        <li class="experience__item">
+                            <span class="experience__item-quantity">55+</span>
+                            <p class="experience__item-desc">Project Done</p>
+                        </li>
+                        <li class="experience__item">
+                            <span class="experience__item-quantity">89+</span>
+                            <p class="experience__item-desc">Happy Clients</p>
+                        </li>
+                        <li class="experience__item">
+                            <span class="experience__item-quantity">150+</span>
+                            <p class="experience__item-desc">Meetings</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="portfolio__content">
+                    <h1 class="portfolio__name">Tran Trung Kyen</h1>
+                    <h1 class="mb__name">Kyen</h1>
+                </div>
+            </div>
+
+            <div class="container__item" id="work">
+                <div class="work__header">
+                    <h2 class="container__item-heading">My work</h2>
+                    <p class="container__item-desc">Here are some of my latest lorem work ipsum tipsum. <br>
+                        Click on the images to make them bigger</p>
+                </div>
+                <div class="work__content">
+                    <ul class="work__list">
+                        
+                    </ul>
+                    <div class="work-btn">
+                        <button class="btn">LOAD MORE</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="contact">
+                <div class="contact__header">
+                    <h1 class="contact__header-text">contact</h1>
+                </div>
+                <div id="contact__content" class="container__item">
+                    <h2 class="container__item-heading">WHERE I WORK</h2>
+                    <p class="container__item-desc">I'd love your feedback!</p>
+                    <div class="row mt-48">
+                        <div class="col l-4 m-4 c-12">
+                            <img src="./assets/images/map.jpg" alt="map" class="contact__content-map">
+                        </div>
+                        <div class="col l-8 m-8 c-12">
+                            <ul class="list-info">
+                                <li class="list-info__item">
+                                    <i class="list-info__item-icon fas fa-map-marker-alt"></i>
+                                    <a href="#" class="list-info__item-text">Dong Anh, HN</a>
+                                </li>
+                                <li class="list-info__item">
+                                    <i class="list-info__item-icon fas fa-phone"></i>
+                                    <a href="" class="list-info__item-text">Phone: 0379 082 973</a>
+                                </li>
+                                <li class="list-info__item">
+                                    <i class="list-info__item-icon fas fa-envelope"></i>
+                                    <a href="" class="list-info__item-text">Email: trantrungkien280502@gmail.com</a>
+                                </li>
+                            </ul>
+                            <form action="" class="contact__note">
+                                <p class="contact__note-text">Swing by for a cup of<i class="fas fa-coffee"></i>, or
+                                    leave me a note:</p>
+                                <div class="row">
+                                    <div class="col l-6 m-6 c-12">
+                                        <input placeholder="Name" required type="text" class="contact__note-input">
+                                    </div>
+                                    <div class="col l-6 m-6 c-12">
+                                        <input placeholder="Email" required type="text" class="contact__note-input">
+                                    </div>
+                                </div>
+                                <div class="row mt-8">
+                                    <div class="col l-12 m-12 c-12">
+                                        <input placeholder="Message" required type="text" class="contact__note-input">
+                                    </div>
+                                </div>
+                                <div class="contact-btn mt-16">
+                                    <button class="btn">
+                                        <i class="fas fa-paper-plane"></i>
+                                        SEND MESSAGE
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+            <div class="footer_btn">
+                <a href="#" class="btn--link">
+                    <button class="btn">
+                        <i class="fas fa-arrow-up"></i>
+                        To the top
+                    </button>
+                </a>
+            </div>
+            <ul class="list-social">
+                <li class="list-social__item">
+                    <a href="" class="list-social__item-link"><i class="fab fa-facebook-square"></i></a>
+                </li>
+                <li class="list-social__item">
+                    <a href="" class="list-social__item-link"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="list-social__item">
+                    <a href="" class="list-social__item-link"><i class="fab fa-snapchat"></i></a>
+                </li>
+                <li class="list-social__item">
+                    <a href="" class="list-social__item-link"><i class="fab fa-pinterest-p"></i></a>
+                </li>
+                <li class="list-social__item">
+                    <a href="" class="list-social__item-link"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="list-social__item">
+                    <a href="" class="list-social__item-link"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+            </ul>
+            <div class="footer__text">
+                <p>Powered by <a href="w3.css">w3.css</a></p>
+            </div>
+        </footer>
+    </div>
+
+    <div class="modal">
+        <div class="btn-close">
+            <i class="btn-close__icon fas fa-times"></i>
+        </div>
+        <div class="modal__content">
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
