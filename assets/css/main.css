@@ -1,9 +1,4 @@
 
-
-#main {
-    
-}
-
 #header {
     position: fixed;
     top: 0;
@@ -144,10 +139,6 @@
 
 .mb__name {
     display: none;
-}
-
-#container {
-
 }
 
 .container__item {
@@ -300,10 +291,6 @@
     width: 75%;
 }
 
-#portfolio {
-
-}
-
 .portfolio__header {
     height: 134px;
     width: 100%;
@@ -362,16 +349,8 @@
     text-shadow: 8px 6px 2px rgb(0 0 0 / 40%);
 }
 
-#work {
-
-}
-
 .work__header {
     color: var(--text-color);
-}
-
-.work__content {
-
 }
 
 .work__list {
@@ -382,10 +361,6 @@
     margin-top: 48px;
     margin-bottom: 0;
 }   
-
-.work__list-item {
-
-}
 
 .work__img {
     width: 100%;
@@ -409,10 +384,6 @@
 
 .work-btn > .btn:hover{
     background-color: rgba(0, 0, 0, 0.2);
-}
-
-#contact {
-
 }
 
 .contact__header {
